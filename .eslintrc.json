@@ -1,0 +1,29 @@
+{
+  "extends": "airbnb",
+  "env": {
+    "node": true
+  },
+  "rules": {
+    "comma-dangle": 0,
+    "object-curly-spacing": 0,
+    "no-underscore-dangle": 0,
+    "func-names": 0,
+    "space-before-function-paren": 0,
+    "prefer-arrow-callback": 0,
+    "space-in-parens": 1,
+    "import/no-extraneous-dependencies": [2, {
+      "devDependencies": true
+    }],
+    "no-console": 0,
+    "no-plusplus": 0,
+    "no-param-reassign": [2, { "props": false }]
+  },
+  "globals": {
+    "describe": 0,
+    "before": 0,
+    "beforeEach": 0,
+    "it": 0,
+    "expect": 0
+  },
+  "plugins": []
+}
