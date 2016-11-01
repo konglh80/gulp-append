@@ -1,5 +1,5 @@
 {
-  "name": "gulp-append",
+  "name": "gulp-append-string",
   "version": "0.0.1",
   "description": "A string append plugin for gulp",
   "main": "lib/index.js",
